@@ -1,0 +1,13 @@
+-- Write your own SQL object definition here, and it'll be included in your package.
+SELECT TOP (1000) [transactions_id]
+      ,[sale_date]
+      ,[sale_time]
+      ,[customer_id]
+      ,[gender]
+      ,[age]
+      ,[category]
+      ,[quantiy]
+      ,[price_per_unit]
+      ,[cogs]
+      ,[total_sale]
+  FROM [Retail Sales Analytics].[dbo].[SQL - Retail Sales Analysis_utf]
